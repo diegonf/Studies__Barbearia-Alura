@@ -1,0 +1,62 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.produtos {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	min-height: calc(100vh - 13rem - 17rem);
+	padding: 50px 0;
+	width: 95%;
+}
+.produtos li {
+	border: 2px solid black;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 30px 20px;
+	text-align: center;
+	width: 30%;
+}
+.produtos li:hover {
+	border-color: #c78c19;
+	cursor: pointer;
+}
+.produtos li:active {
+	border-color: #088c19;
+}
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.produtos img {
+	max-width: 15rem;
+	width: 100%;
+}
+.produto-descricao {
+	font-size: 18px;
+}
+.produto-preco {
+	margin: 10px 0 0;
+	font-size: 22px;
+	font-weight: bold;
+}
+@media screen and (max-width:  768px){
+	.produtos {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		padding: 20px 0;
+	}
+	.produtos li{
+		margin: 0.5rem auto;
+		padding: 15px 10px;
+		width: 80%;
+	}
+	.produtos img {
+		width: 10rem;
+	}
+}
