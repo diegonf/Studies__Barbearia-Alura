@@ -1,6 +1,6 @@
 ## <p align="center">![logo da barbearia](./imgs/logo-branco.png)<br>Barbearia Alura </p>
 
-* Projeto: https://diegonf.github.io/Studies__Barbearia-Alura/
+* Projeto: https://diegonf.github.io/Studies__FrontEnd__Barbearia-Alura/
 * Curso: HTML5 e CSS3
 * Instituição: [Alura](https://www.alura.com.br)
 
